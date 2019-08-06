@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    
+<html lang="en">
+
+
+                  
+                  <form id="demo-form2" action="client1.php" method="POST" data-parsley-validate class="form-horizontal form-label-left">
+				  <p>
+				  
+                     <input type="hidden"  name="operation" value="ADD" class="form-control col-md-7 col-xs-12">
+                    <div class="form-group">
+					
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">NOM & PRENOM <span class="required">*</span>
+                      </label> 
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" id="nomdupci" name="nomdupci" required="required" class="form-control col-md-7 col-xs-12">
+                      </div>
+                    </div><br>
+                                      
+                    <div class="form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">Sexe</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div id="gender" class="btn-group" data-toggle="buttons">
+                          <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                            <input type="radio" name="sexe" value="MASCULIN"> &nbsp; Male &nbsp;
+                            </label>
+                          <label class="btn btn-primary active" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                            <input type="radio" name="sexe" value="FEMININ" checked=""> Female
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">TELEPHONE</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" id="telephone" name="telephone" required="required" class="form-control col-md-7 col-xs-12">
+                      </div>
+                    </div>
+					
+	          <div class="form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12">NUMERO PCI</label>
+                      <div class="col-md-6 col-sm-6 col-xs-12">
+                        <input type="txt" id="numerodupci" name="numerodupci" required="required" class="form-control col-md-7 col-xs-12">
+                      
+                      </div>
+                    </div>             
+                   
+                    <div class="ln_solid"></div>
+                    <div class="form-group">
+                      <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+                            
+                        <button type="submit" onclick="alert('CLIENT ENREGISTRE MERCI')" class="btn btn-success">ENREGISTRER</button>
+						 <button type="button" aria-haspopup="dialog" id="modifier" class="btn btn-default" aria-controls="dialog">MODIFIER</button>
+						<button type="reset" class="btn btn-primary">Anuler</button>
+						
+                       
+                        
+                      </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+                                       
+                              
+</body>
+
+</html>
